@@ -19,7 +19,7 @@
    -Has a list of filters: name, begging date, ending date. The filters are dropdowns that should be populated with options from 
    the available data generated in step 1.
 
-   -Under the filters is a d3 ( https://d3js.org/ ) historical bar chart.  The y axis is 'score'.  The x axis is 'date'. 
+   -Under the filters is a d3 ( https://d3js.org/ ) historical bar chart.  The y axis is 'score'.  The x axis is 'date'.  ( you can use http://krispo.github.io/angular-nvd3/#/ instead of working directly with the d3 api's as long as you are using angular 1.x )
 
    -If no name is selected in the name filter than a message says, "Please select a name" where the bar chart would appear.
 
